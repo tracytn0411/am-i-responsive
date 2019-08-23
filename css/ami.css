@@ -1,7 +1,10 @@
 @font-face {
   font-family: 'RobotoMedium';
-  src: url("/fonts/Roboto-Medium-webfont.eot");
-  src: url("/fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium-webfont.woff") format("woff"), url("/fonts/Roboto-Medium-webfont.ttf") format("truetype"), url("/fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg");
+  src: url("../fonts/Roboto-Medium-webfont.eot");
+  src: url("../fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Roboto-Medium-webfont.woff") format("woff"), 
+    url("../fonts/Roboto-Medium-webfont.ttf") format("truetype"), 
+    url("../fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg");
   font-weight: normal;
   font-style: normal
 }
@@ -203,7 +206,7 @@ iframe {
   -moz-transform-origin: top left
 }
 
-.desktop {
+/* .desktop {
   position: absolute;
   width: 566px;
   height: 538px;
@@ -228,7 +231,7 @@ iframe {
   -o-transform-origin: top left;
   -ms-transform-origin: top left;
   -moz-transform-origin: top left
-}
+} */
 
 .about-tool {
   font-size: 1.2em;
@@ -253,9 +256,9 @@ iframe {
     -moz-transform: scale(0.81)
   }
 
-  .desktop {
+  /* .desktop {
     left: 180px
-  }
+  } */
 
   .laptop {
     left: 520px
@@ -291,9 +294,9 @@ iframe {
     top: -40px
   }
 
-  .desktop {
+  /* .desktop {
     left: 140px
-  }
+  } */
 
   .laptop {
     left: 480px
@@ -318,9 +321,9 @@ iframe {
     -moz-transform: scale(0.65)
   }
 
-  .desktop {
+  /* .desktop {
     left: 100px
-  }
+  } */
 
   .laptop {
     left: 440px
@@ -423,9 +426,9 @@ iframe {
     -moz-transform: scale(0.27)
   }
 
-  .desktop {
+  /* .desktop {
     left: 100px
-  }
+  } */
 
   .laptop {
     left: 515px
