@@ -68,25 +68,25 @@ a {
 }
 
 a:hover {
-  color: #cc4e46;
+  color: cadetblue;
   background-color: #ede6dc
 }
 
 a.button {
   background-color: #ede6dc;
-  color: #cc4e46;
+  color: cadetblue;
   width: 8%;
   line-height: 1.7em;
   margin: 0;
   font-size: 2em;
   text-align: center;
   float: left;
-  border: solid 1px #8e352e;
+  border: solid 1px darkslategrey;
   box-shadow: 0 0 3px #333
 }
 
 a.button:hover {
-  background-color: #cc4e46;
+  background-color: cadetblue;
   color: #ede6dc
 }
 
@@ -104,12 +104,12 @@ h1 {
 .display {
   position: relative;
   left: 0px;
-  height: 600px
+  height: 700px
 }
 
 .url {
   float: left;
-  background-color: #cc4e46;
+  background-color: cadetblue;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0px -2px 5px #333
@@ -149,7 +149,7 @@ iframe {
   width: 110px;
   height: 196px;
   top: 350px;
-  left: 250px;
+  left: 290px;
   z-index: 5
 }
 
@@ -167,15 +167,15 @@ iframe {
   height: 430px;
   z-index: 2;
   position: absolute;
-  left: 350px;
+  left: 380px;
   top: 250px
 }
 
 .tablet iframe {
-  width: 768px;
+  width: 772px;
   height: 1024px;
   top: 22px;
-  left: 30px;
+  left: 29px;
   overflow-y: hidden
 }
 
